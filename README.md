@@ -11,3 +11,17 @@ This guide assumes you're installing from a USB Key.
 ![YOU HAVE BEEN WARNED gif](https://github.com/infinitechris/PineBookProArchSetup/assets/5414345/17a89e89-1f0a-4a6a-9a00-df8bdf4413ec)
 
 Moving on.
+
+- [ ] [How to Install Arch Linux [Step by Step Guide]] (https://itsfoss.com/install-arch-linux/)
+- [ ] [How to Properly Install and Setup KDE Plasma on Arch Linux](https://itsfoss.com/install-kde-arch-linux/)
+     - I prefer this DE for my use case
+- [ ] How to install broadcom-wl (I need to find a guide for this)
+- [ ] 
+
+## Prerequisites
+- I prefer `axel` to `wget`, and I will be referencing it instead of `wget` in scripts. 
+ - a USB card to install Arch onto (naturally) at least 8GB in size
+ - Internet access
+
+# USB Stick Setup
+ - TK
