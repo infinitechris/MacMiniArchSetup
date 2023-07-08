@@ -12,7 +12,7 @@ This guide assumes you're installing from a USB Key.
 
 Moving on.
 
-- [ ] [How to Install Arch Linux [Step by Step Guide]] (https://itsfoss.com/install-arch-linux/)
+- [ ] [How to Install Arch Linux - Step by Step Guide](https://itsfoss.com/install-arch-linux/)
 - [ ] [How to Properly Install and Setup KDE Plasma on Arch Linux](https://itsfoss.com/install-kde-arch-linux/)
      - I prefer this DE for my use case
 - [ ] How to install broadcom-wl (I need to find a guide for this)
