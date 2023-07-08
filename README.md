@@ -24,12 +24,7 @@ Moving on.
  - Internet access
 
 # USB Stick Setup
- - I am experimenting with [Headless SSH install of Arch](https://wiki.archlinux.org/title/Install_Arch_Linux_via_SSH#Prepare_cloud-init_configuration_files) to see if this alleviates most if not all of the manual entry on target machine
-      - [Usb flash guide](https://wiki.archlinux.org/title/USB_flash_installation_medium#Using_the_ISO_as_is_(BIOS_and_UEFI)) used to make bootable usb disk
-      - [iwctl](https://wiki.archlinux.org/title/Iwd#iwctl) on target machine will still need to be setup network access :(
-           - Still needed to enter password to connect :( :(
-      - `passwd` to set `root` password as not empty to allow SSH access
-      - `os-prober error`: If you get the following error while configuring `grub`, you will need to resolve it for the system to be bootable
+ - `os-prober error`: If you get the following error while configuring `grub`, you will need to resolve it for the system to be bootable
 
        grub-mkconfig -o /boot/grub/grub.cfg
        Generating grub configuration file ...
