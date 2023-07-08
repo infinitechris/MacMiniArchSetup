@@ -16,7 +16,7 @@ Moving on.
 - [ ] [How to Properly Install and Setup KDE Plasma on Arch Linux](https://itsfoss.com/install-kde-arch-linux/)
      - I prefer this DE for my use case
 - [ ] How to install broadcom-wl (I need to find a guide for this)
-- [ ] 
+- [ ] Any other guides used
 
 ## Prerequisites
 - I prefer `axel` to `wget`, and I will be referencing it instead of `wget` in scripts. 
