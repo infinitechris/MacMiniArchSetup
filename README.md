@@ -28,4 +28,5 @@ Moving on.
       - [Usb flash guide](https://wiki.archlinux.org/title/USB_flash_installation_medium#Using_the_ISO_as_is_(BIOS_and_UEFI)) used to make bootable usb disk
       - [iwctl](https://wiki.archlinux.org/title/Iwd#iwctl) on target machine will still need to be setup network access :(
            - Still needed to enter password to connect :( :(
+      - `passwd` to set `root` password as not empty to allow SSH access 
       - More TK
