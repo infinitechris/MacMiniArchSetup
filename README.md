@@ -25,5 +25,5 @@ Moving on.
 
 # USB Stick Setup
  - I am experimenting with [Headless SSH install of Arch](https://wiki.archlinux.org/title/Install_Arch_Linux_via_SSH#Prepare_cloud-init_configuration_files) to see if this alleviates most if not all of the manual entry on target machine
-      - iwctl on target machine will still need to be setup network access :(
+      - [iwctl](https://wiki.archlinux.org/title/Iwd#iwctl) on target machine will still need to be setup network access :(
       - More TK
