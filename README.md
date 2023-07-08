@@ -28,5 +28,27 @@ Moving on.
       - [Usb flash guide](https://wiki.archlinux.org/title/USB_flash_installation_medium#Using_the_ISO_as_is_(BIOS_and_UEFI)) used to make bootable usb disk
       - [iwctl](https://wiki.archlinux.org/title/Iwd#iwctl) on target machine will still need to be setup network access :(
            - Still needed to enter password to connect :( :(
-      - `passwd` to set `root` password as not empty to allow SSH access 
-      - More TK
+      - `passwd` to set `root` password as not empty to allow SSH access
+      - `os-prober error`: If you get the following error while configuring `grub`, you will need to resolve it for the system to be bootable
+
+       grub-mkconfig -o /boot/grub/grub.cfg
+       Generating grub configuration file ...
+       Found linux image: /boot/vmlinuz-linux
+       Found initrd image: /boot/initramfs-linux.img
+       Found fallback initrd image(s) in /boot:  initramfs-linux-fallback.img
+       Warning: os-prober will not be executed to detect other bootable partitions.
+       Systems on them will not be added to the GRUB boot configuration.
+       Check GRUB_DISABLE_OS_PROBER documentation entry.
+       Adding boot menu entry for UEFI Firmware Settings ...
+       done
+     - You will need to edit `grub` config with `nano`
+
+           nano /etc/default/grub
+     - Press CTRL+W to find the line containing `#GRUB_DISABLE_OS_PROBER=false` and uncomment
+     - Save this file and exit
+     - re-run `grub-mkconfig -o /boot/grub/grub.cfg` again to resolve
+     - I opt for just `X11` instead of `wayland-session` due to lack of comaptability with `VNC`
+
+           pacman -S xorg plasma kde-applications
+     - 30 is the `tesseract-eng` version
+     - More TK
