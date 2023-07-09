@@ -45,5 +45,5 @@ Moving on.
      - I opt for just `X11` instead of `wayland-session` due to lack of comaptability with `VNC`
 
            pacman -S xorg plasma kde-applications
-     - 30 is the `tesseract-eng` version
+     - 30 is the `tesseract-data-eng` version
      - More TK
